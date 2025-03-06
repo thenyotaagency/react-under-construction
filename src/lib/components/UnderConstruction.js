@@ -58,7 +58,7 @@ class UnderConstruction extends React.Component {
                 className="UnderConstruction-logo"
                 alt={logo.alt}
                 src={logo.src}
-                style={{ ...logo.style }}
+                style={{ ...logo.style, width: "15rem" }}
               />
             </div>}
 
